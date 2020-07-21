@@ -1,0 +1,130 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "simplejson >=2.5.0"
+  ],
+  "extracted_package_dir": "/home/subhasish/anaconda3/pkgs/uritemplate-3.0.0-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/uritemplate-3.0.0-py2.7.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/uritemplate-3.0.0-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/uritemplate-3.0.0-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/uritemplate-3.0.0-py2.7.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/uritemplate-3.0.0-py2.7.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/uritemplate/__init__.py",
+    "lib/python3.6/site-packages/uritemplate/api.py",
+    "lib/python3.6/site-packages/uritemplate/template.py",
+    "lib/python3.6/site-packages/uritemplate/variable.py",
+    "lib/python3.6/site-packages/uritemplate/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/uritemplate/__pycache__/api.cpython-36.pyc",
+    "lib/python3.6/site-packages/uritemplate/__pycache__/template.cpython-36.pyc",
+    "lib/python3.6/site-packages/uritemplate/__pycache__/variable.cpython-36.pyc"
+  ],
+  "fn": "uritemplate-3.0.0-py_1.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/subhasish/anaconda3/pkgs/uritemplate-3.0.0-py_1",
+    "type": 1
+  },
+  "md5": "9f5ccd4c585f0ba1f15939d3f0af2fc4",
+  "name": "uritemplate",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/subhasish/anaconda3/pkgs/uritemplate-3.0.0-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/uritemplate-3.0.0-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "3a6c1cdd07bb91e3ee1c90f5ad1aa2fdf0988353dc8a0cc4f47b9c238f305808",
+        "sha256_in_prefix": "3a6c1cdd07bb91e3ee1c90f5ad1aa2fdf0988353dc8a0cc4f47b9c238f305808",
+        "size_in_bytes": 5040
+      },
+      {
+        "_path": "site-packages/uritemplate-3.0.0-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "9751d62e47b415d93766b7d5fde13110c3a1dfa632f2772ebde7ad415fa5f263",
+        "sha256_in_prefix": "9751d62e47b415d93766b7d5fde13110c3a1dfa632f2772ebde7ad415fa5f263",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "site-packages/uritemplate-3.0.0-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/uritemplate-3.0.0-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "7201ada336406b832760c7dee1be675b7fba89861df27f95fb005b4d47395482",
+        "sha256_in_prefix": "7201ada336406b832760c7dee1be675b7fba89861df27f95fb005b4d47395482",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "site-packages/uritemplate-3.0.0-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "589ce414420d59b830bb3b9410ff240fc4a4d9f147610cc182b8cedef8b2b9b1",
+        "sha256_in_prefix": "589ce414420d59b830bb3b9410ff240fc4a4d9f147610cc182b8cedef8b2b9b1",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/uritemplate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e2eb5b4c288687a4b3dcf941b398255b76655f83c1e417934708f526f4738a20",
+        "sha256_in_prefix": "e2eb5b4c288687a4b3dcf941b398255b76655f83c1e417934708f526f4738a20",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/uritemplate/api.py",
+        "path_type": "hardlink",
+        "sha256": "4b9d34a3eee242d90a5646b352fd54450334a5ae1de6c528ef1523f51f2f562d",
+        "sha256_in_prefix": "4b9d34a3eee242d90a5646b352fd54450334a5ae1de6c528ef1523f51f2f562d",
+        "size_in_bytes": 1911
+      },
+      {
+        "_path": "site-packages/uritemplate/template.py",
+        "path_type": "hardlink",
+        "sha256": "4d9d9373bc9a6230f3f4931c8bb1c0275d372a9bad67a6059afbc6cae1282483",
+        "sha256_in_prefix": "4d9d9373bc9a6230f3f4931c8bb1c0275d372a9bad67a6059afbc6cae1282483",
+        "size_in_bytes": 4025
+      },
+      {
+        "_path": "site-packages/uritemplate/variable.py",
+        "path_type": "hardlink",
+        "sha256": "c995c8f4a3c4e74f33c84e6d2bdabcf23acae5a423c31c9e32057686f421d1e4",
+        "sha256_in_prefix": "c995c8f4a3c4e74f33c84e6d2bdabcf23acae5a423c31c9e32057686f421d1e4",
+        "size_in_bytes": 11401
+      },
+      {
+        "_path": "lib/python3.6/site-packages/uritemplate/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/uritemplate/__pycache__/api.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/uritemplate/__pycache__/template.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/uritemplate/__pycache__/variable.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 9148,
+  "subdir": "noarch",
+  "timestamp": 1531077456195,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/uritemplate-3.0.0-py_1.tar.bz2",
+  "version": "3.0.0"
+}

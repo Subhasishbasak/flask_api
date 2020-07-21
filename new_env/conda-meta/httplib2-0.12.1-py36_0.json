@@ -1,0 +1,146 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/subhasish/anaconda3/pkgs/httplib2-0.12.1-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/httplib2/__init__.py",
+    "lib/python3.6/site-packages/httplib2/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/httplib2/__pycache__/certs.cpython-36.pyc",
+    "lib/python3.6/site-packages/httplib2/__pycache__/iri2uri.cpython-36.pyc",
+    "lib/python3.6/site-packages/httplib2/__pycache__/socks.cpython-36.pyc",
+    "lib/python3.6/site-packages/httplib2/cacerts.txt",
+    "lib/python3.6/site-packages/httplib2/certs.py",
+    "lib/python3.6/site-packages/httplib2/iri2uri.py",
+    "lib/python3.6/site-packages/httplib2/socks.py"
+  ],
+  "fn": "httplib2-0.12.1-py36_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/subhasish/anaconda3/pkgs/httplib2-0.12.1-py36_0",
+    "type": 1
+  },
+  "md5": "91f42acd8eb4111c13fece2a3c1e11df",
+  "name": "httplib2",
+  "package_tarball_full_path": "/home/subhasish/anaconda3/pkgs/httplib2-0.12.1-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e851861b452c1b17e644d10c24d13b752d386f314e1571ada28c9316829c576b",
+        "sha256_in_prefix": "e851861b452c1b17e644d10c24d13b752d386f314e1571ada28c9316829c576b",
+        "size_in_bytes": 2197
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "15c2937d761edafa4da16925ee3a65f41c20c6ed29ea25af007aec702d899af7",
+        "sha256_in_prefix": "15c2937d761edafa4da16925ee3a65f41c20c6ed29ea25af007aec702d899af7",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "878a300741a1a46f0c184c07a7fdb6e604ade89d9f60ab99b95d6b1e29163a01",
+        "sha256_in_prefix": "878a300741a1a46f0c184c07a7fdb6e604ade89d9f60ab99b95d6b1e29163a01",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2-0.12.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "04463c0a12b06a05169aef71f3237d24e6c9a5928d7960abd44fac20409be7a2",
+        "sha256_in_prefix": "04463c0a12b06a05169aef71f3237d24e6c9a5928d7960abd44fac20409be7a2",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "341ca7d7d05dde0adda3cb65087984b94ca7f421692d17ede686ed72d389fbf8",
+        "sha256_in_prefix": "341ca7d7d05dde0adda3cb65087984b94ca7f421692d17ede686ed72d389fbf8",
+        "size_in_bytes": 72461
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "85f2b6df13d39b0e62bf71e484d32468f4fd59b2d67fd4877457b1812057b885",
+        "sha256_in_prefix": "85f2b6df13d39b0e62bf71e484d32468f4fd59b2d67fd4877457b1812057b885",
+        "size_in_bytes": 46173
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/certs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "32d73f01e303549c1af4edc2e779447c4dc33eaae7a9b8621cd9175ddc1cfa80",
+        "sha256_in_prefix": "32d73f01e303549c1af4edc2e779447c4dc33eaae7a9b8621cd9175ddc1cfa80",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/iri2uri.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c83c88e1d6901a6b70cd7c3914553ac3c466cbbffd274de30628f6f593e97ed0",
+        "sha256_in_prefix": "c83c88e1d6901a6b70cd7c3914553ac3c466cbbffd274de30628f6f593e97ed0",
+        "size_in_bytes": 3334
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/socks.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d6c0245e10a2f587e958c03ab4550bab7434acdfb08d77fb97e18cf848e6b96",
+        "sha256_in_prefix": "3d6c0245e10a2f587e958c03ab4550bab7434acdfb08d77fb97e18cf848e6b96",
+        "size_in_bytes": 14718
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/cacerts.txt",
+        "path_type": "hardlink",
+        "sha256": "010c9a7558e9d6c1081b4c8888c27cda5e7686994fa37a1d248c93492fec38dc",
+        "sha256_in_prefix": "010c9a7558e9d6c1081b4c8888c27cda5e7686994fa37a1d248c93492fec38dc",
+        "size_in_bytes": 135547
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/certs.py",
+        "path_type": "hardlink",
+        "sha256": "82e85f8cc3610dd2891326016f96722f154ee6ad48ed8fcffb8046f0c9e2064f",
+        "sha256_in_prefix": "82e85f8cc3610dd2891326016f96722f154ee6ad48ed8fcffb8046f0c9e2064f",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/iri2uri.py",
+        "path_type": "hardlink",
+        "sha256": "3e1233133791e82ef797ba62c2b34026556f95682cab1b494e515e5e0ce7cd0a",
+        "sha256_in_prefix": "3e1233133791e82ef797ba62c2b34026556f95682cab1b494e515e5e0ce7cd0a",
+        "size_in_bytes": 4153
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/socks.py",
+        "path_type": "hardlink",
+        "sha256": "c897cae2c3abef393a64d3191ef658148ed9b52ad97038e97ed065f15e641dae",
+        "sha256_in_prefix": "c897cae2c3abef393a64d3191ef658148ed9b52ad97038e97ed065f15e641dae",
+        "size_in_bytes": 19709
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 117817,
+  "subdir": "linux-64",
+  "timestamp": 1550238661896,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/httplib2-0.12.1-py36_0.tar.bz2",
+  "version": "0.12.1"
+}

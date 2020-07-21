@@ -1,0 +1,58 @@
+==> 2019-03-13 01:26:00 <==
+# cmd: /home/subhasish/anaconda3/bin/conda create --name new_env
+# conda version: 4.6.8
+==> 2019-03-13 01:30:11 <==
+# cmd: /home/subhasish/anaconda3/bin/conda install -c conda-forge google-cloud-sdk
+# conda version: 4.6.8
++conda-forge::ca-certificates-2019.3.9-hecc5488_0
++conda-forge::certifi-2019.3.9-py36_0
++conda-forge::google-cloud-sdk-237.0.0-py36_0
++conda-forge::libffi-3.2.1-hf484d3e_1005
++conda-forge::libgcc-ng-7.3.0-hdf63c60_0
++conda-forge::libstdcxx-ng-7.3.0-hdf63c60_0
++conda-forge::ncurses-6.1-hf484d3e_1002
++conda-forge::openssl-1.1.1b-h14c3975_1
++conda-forge::pip-19.0.3-py36_0
++conda-forge::python-3.6.7-h381d211_1004
++conda-forge::readline-7.0-hf8c457e_1001
++conda-forge::setuptools-40.8.0-py36_0
++conda-forge::sqlite-3.26.0-h67949de_1001
++conda-forge::tk-8.6.9-h84994c4_1000
++conda-forge::wheel-0.33.1-py36_0
++conda-forge::xz-5.2.4-h14c3975_1001
++conda-forge::zlib-1.2.11-h14c3975_1004
+# update specs: ['google-cloud-sdk']
+==> 2019-03-13 01:36:24 <==
+# cmd: /home/subhasish/anaconda3/bin/conda install -c conda-forge mrjob
+# conda version: 4.6.8
++conda-forge::asn1crypto-0.24.0-py36_1003
++conda-forge::boto3-1.9.112-py_0
++conda-forge::botocore-1.12.112-py_0
++conda-forge::cachetools-2.1.0-py_0
++conda-forge::cffi-1.12.2-py36hf0e25f4_1
++conda-forge::cryptography-2.5-py36h9d9f1b6_1
++conda-forge::docutils-0.14-py36_1001
++conda-forge::google-api-python-client-1.7.8-py_0
++conda-forge::google-auth-1.6.3-py_0
++conda-forge::google-auth-httplib2-0.0.3-py_2
++conda-forge::httplib2-0.12.1-py36_0
++conda-forge::idna-2.8-py36_1000
++conda-forge::jmespath-0.9.3-py_1
++conda-forge::mrjob-0.6.7-py36_0
++conda-forge::pyasn1-0.4.4-py_1
++conda-forge::pyasn1-modules-0.2.4-py_0
++conda-forge::pycparser-2.19-py36_1
++conda-forge::pyopenssl-19.0.0-py36_0
++conda-forge::pysocks-1.6.8-py36_1002
++conda-forge::python-dateutil-2.8.0-py_0
++conda-forge::pyyaml-3.13-py36h14c3975_1001
++conda-forge::rapidjson-1.1.0-hf484d3e_1002
++conda-forge::rsa-3.4.2-py_1
++conda-forge::s3transfer-0.2.0-py36_0
++conda-forge::simplejson-3.16.1-py36h470a237_0
++conda-forge::six-1.12.0-py36_1000
++conda-forge::ujson-1.35-py36h14c3975_1001
++conda-forge::uritemplate-3.0.0-py_1
++conda-forge::urllib3-1.24.1-py36_1000
++conda-forge::yaml-0.1.7-h14c3975_1001
+# update specs: ['mrjob']

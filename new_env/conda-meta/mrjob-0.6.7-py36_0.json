@@ -1,0 +1,1527 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "boto3 >=1.4.6",
+    "botocore >=1.6.0",
+    "google-api-python-client >=1.5.0",
+    "python >=3.6,<3.7.0a0",
+    "pyyaml >=3.08",
+    "rapidjson",
+    "ujson"
+  ],
+  "extracted_package_dir": "/home/subhasish/anaconda3/pkgs/mrjob-0.6.7-py36_0",
+  "features": "",
+  "files": [
+    "bin/mrjob",
+    "bin/mrjob-3",
+    "bin/mrjob-3.6",
+    "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/mrjob/__init__.py",
+    "lib/python3.6/site-packages/mrjob/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/ami.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/aws.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/bin.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/cat.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/cloud.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/conf.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/dataproc.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/emr.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/hadoop.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/iam.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/inline.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/job.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/launch.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/local.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/options.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/parse.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/pool.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/protocol.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/py2.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/retry.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/runner.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/setup.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/sim.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/step.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/ami.py",
+    "lib/python3.6/site-packages/mrjob/aws.py",
+    "lib/python3.6/site-packages/mrjob/bin.py",
+    "lib/python3.6/site-packages/mrjob/bootstrap/terminate_idle_cluster_emr.sh",
+    "lib/python3.6/site-packages/mrjob/cat.py",
+    "lib/python3.6/site-packages/mrjob/cloud.py",
+    "lib/python3.6/site-packages/mrjob/cmd.py",
+    "lib/python3.6/site-packages/mrjob/compat.py",
+    "lib/python3.6/site-packages/mrjob/conf.py",
+    "lib/python3.6/site-packages/mrjob/dataproc.py",
+    "lib/python3.6/site-packages/mrjob/emr.py",
+    "lib/python3.6/site-packages/mrjob/examples/__init__.py",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_boom.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_count_lines_by_file.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_count_lines_right.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_count_lines_wrong.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_grep.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_jar_step_example.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_log_sampler.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_most_used_word.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_next_word_stats.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_nick_nack.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_page_rank.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_phone_to_url.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_spark_nick_nack_word_count.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_spark_wordcount.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_spark_wordcount_script.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_sparkaboom.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_text_classifier.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_u_word_freq_count.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_wc.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_word_freq_count.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/__pycache__/spark_wordcount_script.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/mr_boom.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_count_lines_by_file.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_count_lines_right.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_count_lines_wrong.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_grep.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_jar_step_example.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_log_sampler.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_most_used_word.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_next_word_stats.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_nick_nack.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_page_rank.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_phone_to_url.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/__init__.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/__pycache__/mr_postfix_bounce.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/bounce_processing_rules.json",
+    "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/mr_postfix_bounce.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_spark_nick_nack_word_count.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_spark_wordcount.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_spark_wordcount_script.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_sparkaboom.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_text_classifier.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/__init__.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/__pycache__/mr_travelling_salesman.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/10_nodes.json",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/11_nodes.json",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/12_nodes.json",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/13_nodes.json",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/9_nodes.json",
+    "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/mr_travelling_salesman.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_u_word_freq_count.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_wc.py",
+    "lib/python3.6/site-packages/mrjob/examples/mr_word_freq_count.py",
+    "lib/python3.6/site-packages/mrjob/examples/spark_wordcount_script.py",
+    "lib/python3.6/site-packages/mrjob/fs/__init__.py",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/composite.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/gcs.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/hadoop.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/local.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/s3.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/__pycache__/ssh.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/fs/base.py",
+    "lib/python3.6/site-packages/mrjob/fs/composite.py",
+    "lib/python3.6/site-packages/mrjob/fs/gcs.py",
+    "lib/python3.6/site-packages/mrjob/fs/hadoop.py",
+    "lib/python3.6/site-packages/mrjob/fs/local.py",
+    "lib/python3.6/site-packages/mrjob/fs/s3.py",
+    "lib/python3.6/site-packages/mrjob/fs/ssh.py",
+    "lib/python3.6/site-packages/mrjob/hadoop.py",
+    "lib/python3.6/site-packages/mrjob/iam.py",
+    "lib/python3.6/site-packages/mrjob/inline.py",
+    "lib/python3.6/site-packages/mrjob/job.py",
+    "lib/python3.6/site-packages/mrjob/launch.py",
+    "lib/python3.6/site-packages/mrjob/local.py",
+    "lib/python3.6/site-packages/mrjob/logs/__init__.py",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/bootstrap.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/counters.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/errors.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/history.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/ids.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/log4j.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/mixin.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/step.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/task.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/__pycache__/wrap.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/logs/bootstrap.py",
+    "lib/python3.6/site-packages/mrjob/logs/counters.py",
+    "lib/python3.6/site-packages/mrjob/logs/errors.py",
+    "lib/python3.6/site-packages/mrjob/logs/history.py",
+    "lib/python3.6/site-packages/mrjob/logs/ids.py",
+    "lib/python3.6/site-packages/mrjob/logs/log4j.py",
+    "lib/python3.6/site-packages/mrjob/logs/mixin.py",
+    "lib/python3.6/site-packages/mrjob/logs/step.py",
+    "lib/python3.6/site-packages/mrjob/logs/task.py",
+    "lib/python3.6/site-packages/mrjob/logs/wrap.py",
+    "lib/python3.6/site-packages/mrjob/options.py",
+    "lib/python3.6/site-packages/mrjob/parse.py",
+    "lib/python3.6/site-packages/mrjob/pool.py",
+    "lib/python3.6/site-packages/mrjob/protocol.py",
+    "lib/python3.6/site-packages/mrjob/py2.py",
+    "lib/python3.6/site-packages/mrjob/retry.py",
+    "lib/python3.6/site-packages/mrjob/runner.py",
+    "lib/python3.6/site-packages/mrjob/setup.py",
+    "lib/python3.6/site-packages/mrjob/sim.py",
+    "lib/python3.6/site-packages/mrjob/step.py",
+    "lib/python3.6/site-packages/mrjob/tools/__init__.py",
+    "lib/python3.6/site-packages/mrjob/tools/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/__pycache__/diagnose.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/__pycache__/spark_submit.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/diagnose.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__init__.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/audit_usage.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/create_cluster.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/mrboss.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/report_long_jobs.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/s3_tmpwatch.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/terminate_cluster.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/terminate_idle_clusters.cpython-36.pyc",
+    "lib/python3.6/site-packages/mrjob/tools/emr/audit_usage.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/create_cluster.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/mrboss.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/report_long_jobs.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/s3_tmpwatch.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/terminate_cluster.py",
+    "lib/python3.6/site-packages/mrjob/tools/emr/terminate_idle_clusters.py",
+    "lib/python3.6/site-packages/mrjob/tools/spark_submit.py",
+    "lib/python3.6/site-packages/mrjob/util.py"
+  ],
+  "fn": "mrjob-0.6.7-py36_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/subhasish/anaconda3/pkgs/mrjob-0.6.7-py36_0",
+    "type": 1
+  },
+  "md5": "765c1b4aaf33e16a947c877a98329b0c",
+  "name": "mrjob",
+  "package_tarball_full_path": "/home/subhasish/anaconda3/pkgs/mrjob-0.6.7-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/mrjob",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "8a0191d4a48d7447a94fe9b2e1819d6aa48a272733b70849699e60dcd8993e46",
+        "sha256_in_prefix": "f16ec4dad9b48ac074ded83acc128832c7084d28e698d2383c2d7696386cb853",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "bin/mrjob-3",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "8a0191d4a48d7447a94fe9b2e1819d6aa48a272733b70849699e60dcd8993e46",
+        "sha256_in_prefix": "f16ec4dad9b48ac074ded83acc128832c7084d28e698d2383c2d7696386cb853",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "bin/mrjob-3.6",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "8a0191d4a48d7447a94fe9b2e1819d6aa48a272733b70849699e60dcd8993e46",
+        "sha256_in_prefix": "f16ec4dad9b48ac074ded83acc128832c7084d28e698d2383c2d7696386cb853",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "8999827202f4c5b42c3686dbedcbac3475ebd333ec1eca55c85c24199f3247bd",
+        "sha256_in_prefix": "8999827202f4c5b42c3686dbedcbac3475ebd333ec1eca55c85c24199f3247bd",
+        "size_in_bytes": 7823
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "734a0e949d2582f2b3d2b9635b971406d84d1aa267b833dd40ae84de428fb011",
+        "sha256_in_prefix": "734a0e949d2582f2b3d2b9635b971406d84d1aa267b833dd40ae84de428fb011",
+        "size_in_bytes": 5607
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ea4059a166906e4417a9710cfaa95ff5b1dde9acd59d5d3a44339287ffd45fd1",
+        "sha256_in_prefix": "ea4059a166906e4417a9710cfaa95ff5b1dde9acd59d5d3a44339287ffd45fd1",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "91c45fe0c5da54950f9f779bf072390d8be935e1f737379cdc141246035cdf35",
+        "sha256_in_prefix": "91c45fe0c5da54950f9f779bf072390d8be935e1f737379cdc141246035cdf35",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob-0.6.7-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2ce9bad080caa87c52139f92fbbb041d250836657726b20d952a13df8fbacea1",
+        "sha256_in_prefix": "2ce9bad080caa87c52139f92fbbb041d250836657726b20d952a13df8fbacea1",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5b3e1147925f7a57b78eca746922e3b6b71fe27a7679514007eac3796600e84e",
+        "sha256_in_prefix": "5b3e1147925f7a57b78eca746922e3b6b71fe27a7679514007eac3796600e84e",
+        "size_in_bytes": 5661
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3479cd3e6f2a2c75cb356fd40c17a45f02e07f676238b8845acda2f822ea8bc",
+        "sha256_in_prefix": "d3479cd3e6f2a2c75cb356fd40c17a45f02e07f676238b8845acda2f822ea8bc",
+        "size_in_bytes": 4966
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/ami.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "939082e5884c76af4a6bf934cf6c31fa086860168d3103798fb25fe272e84bdc",
+        "sha256_in_prefix": "939082e5884c76af4a6bf934cf6c31fa086860168d3103798fb25fe272e84bdc",
+        "size_in_bytes": 2594
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/aws.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4cda622a4cd1af52f2041533ea8338e5e5dcc02fa0f4a3980a60c9232f1da81f",
+        "sha256_in_prefix": "4cda622a4cd1af52f2041533ea8338e5e5dcc02fa0f4a3980a60c9232f1da81f",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/bin.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3af69b8cfb50bb67a0a09e1868e6df6983b2f68b00407d9a952c153a9f1eacfa",
+        "sha256_in_prefix": "3af69b8cfb50bb67a0a09e1868e6df6983b2f68b00407d9a952c153a9f1eacfa",
+        "size_in_bytes": 25133
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/cat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d453e03bf790680f2e52643078da93f3eb25178bfc2fdf9b5d3237d2b37cc586",
+        "sha256_in_prefix": "d453e03bf790680f2e52643078da93f3eb25178bfc2fdf9b5d3237d2b37cc586",
+        "size_in_bytes": 3145
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/cloud.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "11c156d7235aaad089dbb6db996ea54548b282304629bda05abdeec257ea0ce0",
+        "sha256_in_prefix": "11c156d7235aaad089dbb6db996ea54548b282304629bda05abdeec257ea0ce0",
+        "size_in_bytes": 14447
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "59566bcec4df589eb2bb121751d7bc1bb04b1bbdc3bffd84335e26102706237c",
+        "sha256_in_prefix": "59566bcec4df589eb2bb121751d7bc1bb04b1bbdc3bffd84335e26102706237c",
+        "size_in_bytes": 4150
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a1ecfc5c125c596c1a69c1b1b61b41f13cd075f8aa8174db029814548397b86",
+        "sha256_in_prefix": "7a1ecfc5c125c596c1a69c1b1b61b41f13cd075f8aa8174db029814548397b86",
+        "size_in_bytes": 25878
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/conf.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b475ed7553201770b1ef2b5dc19831320d177aeb1d53ce162813888cf2c3e4d5",
+        "sha256_in_prefix": "b475ed7553201770b1ef2b5dc19831320d177aeb1d53ce162813888cf2c3e4d5",
+        "size_in_bytes": 16040
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/dataproc.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7968ec731b0a55f364504d629d02fba8595d2a60a06195df92b00fc19d2b409f",
+        "sha256_in_prefix": "7968ec731b0a55f364504d629d02fba8595d2a60a06195df92b00fc19d2b409f",
+        "size_in_bytes": 36586
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/emr.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "68739c12908cf135456957454d645ba3f13e408dd8d2081893b0d0bbab26f393",
+        "sha256_in_prefix": "68739c12908cf135456957454d645ba3f13e408dd8d2081893b0d0bbab26f393",
+        "size_in_bytes": 76451
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/hadoop.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f28321d318f5803323660c3269c3b909596f56594006f1525acef511680a071",
+        "sha256_in_prefix": "2f28321d318f5803323660c3269c3b909596f56594006f1525acef511680a071",
+        "size_in_bytes": 16996
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/iam.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2752cc1aa411dbae06e2039dc9b343a91170755d4b35186c4871d7c56e1bf033",
+        "sha256_in_prefix": "2752cc1aa411dbae06e2039dc9b343a91170755d4b35186c4871d7c56e1bf033",
+        "size_in_bytes": 3464
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/inline.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c51c3f13161c06b199c9ba5c534beaf793a29cece9f00293d2a0fa2fde854fb9",
+        "sha256_in_prefix": "c51c3f13161c06b199c9ba5c534beaf793a29cece9f00293d2a0fa2fde854fb9",
+        "size_in_bytes": 4469
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/job.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd0b93ed616999c207e237bfe63265305402abd15c8ccc143543048d7e1bd908",
+        "sha256_in_prefix": "fd0b93ed616999c207e237bfe63265305402abd15c8ccc143543048d7e1bd908",
+        "size_in_bytes": 37204
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/launch.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7aa21fcb78bc0cad7263f1411f0ac2ea3aee9a9f0be95a99261942e19ba3b37",
+        "sha256_in_prefix": "d7aa21fcb78bc0cad7263f1411f0ac2ea3aee9a9f0be95a99261942e19ba3b37",
+        "size_in_bytes": 20025
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/local.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "61f42dd877bac44d7b934d9302e0e5b2acafb387ead59a78d9c4fca7855b257b",
+        "sha256_in_prefix": "61f42dd877bac44d7b934d9302e0e5b2acafb387ead59a78d9c4fca7855b257b",
+        "size_in_bytes": 7158
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/options.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c2d11c2021de8be9cb10438e043ea2f595037668cedea74bd0b062dd2758982",
+        "sha256_in_prefix": "9c2d11c2021de8be9cb10438e043ea2f595037668cedea74bd0b062dd2758982",
+        "size_in_bytes": 36126
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/parse.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b4523656099e1bdca47f816fd5f8375adabd93e460ebff82602cbf6bc2b481b",
+        "sha256_in_prefix": "7b4523656099e1bdca47f816fd5f8375adabd93e460ebff82602cbf6bc2b481b",
+        "size_in_bytes": 4869
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/pool.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7d68cb532bb0e42d7144afced0e4994ee2b5d6098bc2c8731704b4802ed211c",
+        "sha256_in_prefix": "b7d68cb532bb0e42d7144afced0e4994ee2b5d6098bc2c8731704b4802ed211c",
+        "size_in_bytes": 13186
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/protocol.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "cad7c25569f4b2620c5c4164795cb52d80a028eb41b135014dfd48ef697e927b",
+        "sha256_in_prefix": "cad7c25569f4b2620c5c4164795cb52d80a028eb41b135014dfd48ef697e927b",
+        "size_in_bytes": 17373
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/py2.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbaa5bd5dff07e964918c443a6813cafa7c55819691a74685ddcd51f311a41d4",
+        "sha256_in_prefix": "dbaa5bd5dff07e964918c443a6813cafa7c55819691a74685ddcd51f311a41d4",
+        "size_in_bytes": 4439
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/retry.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa9f2627c30156a8ffed60249714626808d5689aa0516deca68f81e1de777c78",
+        "sha256_in_prefix": "fa9f2627c30156a8ffed60249714626808d5689aa0516deca68f81e1de777c78",
+        "size_in_bytes": 3243
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/runner.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fdfaac52a14d06669d9af51e982c5e8585113989bc0a3ca14c41de15bedee49",
+        "sha256_in_prefix": "9fdfaac52a14d06669d9af51e982c5e8585113989bc0a3ca14c41de15bedee49",
+        "size_in_bytes": 40374
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/setup.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e22bd86a65e584761e8796516ca047f84bdcce7d18b55c7450285a38e85c7dd",
+        "sha256_in_prefix": "3e22bd86a65e584761e8796516ca047f84bdcce7d18b55c7450285a38e85c7dd",
+        "size_in_bytes": 15035
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/sim.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1e6f520e4b7807158ba8a67ba32f920fc29634e75a6a96d9fb22525cb4577ba",
+        "sha256_in_prefix": "e1e6f520e4b7807158ba8a67ba32f920fc29634e75a6a96d9fb22525cb4577ba",
+        "size_in_bytes": 22827
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/step.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b23c83accf1e0e7429396f548506e99bbbac411f831eb11c4c946d2789dd3df8",
+        "sha256_in_prefix": "b23c83accf1e0e7429396f548506e99bbbac411f831eb11c4c946d2789dd3df8",
+        "size_in_bytes": 18390
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/__pycache__/util.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4b38816b671e6d73466ac3113d0abc42a1530dd47cab24054678f1aa27c7de3",
+        "sha256_in_prefix": "f4b38816b671e6d73466ac3113d0abc42a1530dd47cab24054678f1aa27c7de3",
+        "size_in_bytes": 13970
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/ami.py",
+        "path_type": "hardlink",
+        "sha256": "2f9e265bad4740628f7b8f1b7f61ab256c5e0e4188fb112700a510783b7c4917",
+        "sha256_in_prefix": "2f9e265bad4740628f7b8f1b7f61ab256c5e0e4188fb112700a510783b7c4917",
+        "size_in_bytes": 3110
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/aws.py",
+        "path_type": "hardlink",
+        "sha256": "59ccac833f9c1ad837994d2330ac60b20197bf2f257d013153a73b71695a237e",
+        "sha256_in_prefix": "59ccac833f9c1ad837994d2330ac60b20197bf2f257d013153a73b71695a237e",
+        "size_in_bytes": 5739
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/bin.py",
+        "path_type": "hardlink",
+        "sha256": "75bda510b1aae4289dbc9243bac6edd7735424ca19344188d6fca38a800748f0",
+        "sha256_in_prefix": "75bda510b1aae4289dbc9243bac6edd7735424ca19344188d6fca38a800748f0",
+        "size_in_bytes": 35218
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/bootstrap/terminate_idle_cluster_emr.sh",
+        "path_type": "hardlink",
+        "sha256": "4e0720019c0a3e5f6e304aaf22cfb1084edfb6e70e2a75d258baeb01a19d402e",
+        "sha256_in_prefix": "4e0720019c0a3e5f6e304aaf22cfb1084edfb6e70e2a75d258baeb01a19d402e",
+        "size_in_bytes": 3705
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/cat.py",
+        "path_type": "hardlink",
+        "sha256": "5dd387d3f89190b51d753557e1105fce5abf6565ed5b1d2aad2a528b238e8eca",
+        "sha256_in_prefix": "5dd387d3f89190b51d753557e1105fce5abf6565ed5b1d2aad2a528b238e8eca",
+        "size_in_bytes": 3982
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/cloud.py",
+        "path_type": "hardlink",
+        "sha256": "3cf2039952d0e2356548b317eeb9512b6d73c4f66f58d472ce7ebfa5d8b47daf",
+        "sha256_in_prefix": "3cf2039952d0e2356548b317eeb9512b6d73c4f66f58d472ce7ebfa5d8b47daf",
+        "size_in_bytes": 21585
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/cmd.py",
+        "path_type": "hardlink",
+        "sha256": "9dcbd4b1df9bd6023bcf05ed227c36108ca95d59352680830bcbe42d30552d5e",
+        "sha256_in_prefix": "9dcbd4b1df9bd6023bcf05ed227c36108ca95d59352680830bcbe42d30552d5e",
+        "size_in_bytes": 3525
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/compat.py",
+        "path_type": "hardlink",
+        "sha256": "276426d0547201c5a22150288ef08d9c7db5d8d9b879a93fdf4f101ca989da21",
+        "sha256_in_prefix": "276426d0547201c5a22150288ef08d9c7db5d8d9b879a93fdf4f101ca989da21",
+        "size_in_bytes": 31523
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/conf.py",
+        "path_type": "hardlink",
+        "sha256": "e1fde7801e0d35c9dfe5239397450aec031915c6952522828384a587f38f95dd",
+        "sha256_in_prefix": "e1fde7801e0d35c9dfe5239397450aec031915c6952522828384a587f38f95dd",
+        "size_in_bytes": 18635
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/dataproc.py",
+        "path_type": "hardlink",
+        "sha256": "74503c3687d2fd166130bd914f0172ce31fa319163f7e5e18d89bf8c0ca08846",
+        "sha256_in_prefix": "74503c3687d2fd166130bd914f0172ce31fa319163f7e5e18d89bf8c0ca08846",
+        "size_in_bytes": 51146
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/emr.py",
+        "path_type": "hardlink",
+        "sha256": "91fe17274e59017ed8ff8ed36ba30943f543bd3011a4594adc93f72ac70bbbf4",
+        "sha256_in_prefix": "91fe17274e59017ed8ff8ed36ba30943f543bd3011a4594adc93f72ac70bbbf4",
+        "size_in_bytes": 116331
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "31f85d8fe2a679c11f734db3b260582204fa513c984b738059660d90cb0a22be",
+        "sha256_in_prefix": "31f85d8fe2a679c11f734db3b260582204fa513c984b738059660d90cb0a22be",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_boom.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5f518d289d26a832f1432e81b9ef5e75ee4687502e3cf24518d96c85163b0b1",
+        "sha256_in_prefix": "f5f518d289d26a832f1432e81b9ef5e75ee4687502e3cf24518d96c85163b0b1",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_count_lines_by_file.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3d45d4fdecb43abbe3dedacf652d50015b93ea785f7df9ff9d873f6f2e5dc62",
+        "sha256_in_prefix": "a3d45d4fdecb43abbe3dedacf652d50015b93ea785f7df9ff9d873f6f2e5dc62",
+        "size_in_bytes": 828
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_count_lines_right.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec4deea9129d826cf7ab6d914eb10a236034396a88f6605361ca04169407a0c8",
+        "sha256_in_prefix": "ec4deea9129d826cf7ab6d914eb10a236034396a88f6605361ca04169407a0c8",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_count_lines_wrong.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "92da42fa81797b18d794d061c954dd8e10c7679370ad19f2ec34a60e23f8c0b1",
+        "sha256_in_prefix": "92da42fa81797b18d794d061c954dd8e10c7679370ad19f2ec34a60e23f8c0b1",
+        "size_in_bytes": 945
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_grep.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8af3a03af012d4274546bd6d6b580ba4081d4f9cb7ee7acfb0cb9ccbef750e6",
+        "sha256_in_prefix": "a8af3a03af012d4274546bd6d6b580ba4081d4f9cb7ee7acfb0cb9ccbef750e6",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_jar_step_example.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "14be521f60c6c22b5bea0cdf8801fefc60d147a16bfc702191ee86fa68a1e5eb",
+        "sha256_in_prefix": "14be521f60c6c22b5bea0cdf8801fefc60d147a16bfc702191ee86fa68a1e5eb",
+        "size_in_bytes": 2808
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_log_sampler.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecebb2c1f83a6632c99f8e89ee0a6d10f3248106f6efb437e9de9816a1420b5f",
+        "sha256_in_prefix": "ecebb2c1f83a6632c99f8e89ee0a6d10f3248106f6efb437e9de9816a1420b5f",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_most_used_word.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7ec4c78e7f565043a9a96cd465a0cb6a6717b56bf06abe37e420680db57b179",
+        "sha256_in_prefix": "e7ec4c78e7f565043a9a96cd465a0cb6a6717b56bf06abe37e420680db57b179",
+        "size_in_bytes": 2169
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_next_word_stats.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cbfbd0bd6af9f0c723d883bb74ae3865d5ed028f3886bb44c3c69d28ae4bfa4",
+        "sha256_in_prefix": "3cbfbd0bd6af9f0c723d883bb74ae3865d5ed028f3886bb44c3c69d28ae4bfa4",
+        "size_in_bytes": 2713
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_nick_nack.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c16253f6b474bf4d6d84afcf3f122ce25ffcb1a827f4b45a39020e9c558cb016",
+        "sha256_in_prefix": "c16253f6b474bf4d6d84afcf3f122ce25ffcb1a827f4b45a39020e9c558cb016",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_page_rank.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "195865f67d9dbb8a71873547576290de69b928dbc565572ad824f8acc91ff4e8",
+        "sha256_in_prefix": "195865f67d9dbb8a71873547576290de69b928dbc565572ad824f8acc91ff4e8",
+        "size_in_bytes": 3135
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_phone_to_url.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "75dafba914863e86493971f675f894fcd6eb15a647bf55f0aba0e1822313e608",
+        "sha256_in_prefix": "75dafba914863e86493971f675f894fcd6eb15a647bf55f0aba0e1822313e608",
+        "size_in_bytes": 3643
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_spark_nick_nack_word_count.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1427bd3e2d6282c230971cd786c0a0d82f99897f6292b2d5f00dd0209350294",
+        "sha256_in_prefix": "d1427bd3e2d6282c230971cd786c0a0d82f99897f6292b2d5f00dd0209350294",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_spark_wordcount.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5c612d600c05a20b3895556a8be6a91303e187e9d41e7b88f3d6b4e008a13be",
+        "sha256_in_prefix": "d5c612d600c05a20b3895556a8be6a91303e187e9d41e7b88f3d6b4e008a13be",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_spark_wordcount_script.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b4b92f210c1dac9b02dc4b06e634066c1332851d3f864d811c53538af3c41dc",
+        "sha256_in_prefix": "1b4b92f210c1dac9b02dc4b06e634066c1332851d3f864d811c53538af3c41dc",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_sparkaboom.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cd69c45c30ace55d9d758449be13ef002f983e31563a4efca37ddfb0bfd045f",
+        "sha256_in_prefix": "9cd69c45c30ace55d9d758449be13ef002f983e31563a4efca37ddfb0bfd045f",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_text_classifier.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "83a64c795ed6ebbb95e5f25f6db5900fe5d1488de8101ea94b36066e4037538d",
+        "sha256_in_prefix": "83a64c795ed6ebbb95e5f25f6db5900fe5d1488de8101ea94b36066e4037538d",
+        "size_in_bytes": 17782
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_u_word_freq_count.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1110ab8fccb84833d9d47709c191f43fa3882490ff1c2dcb5fd47a11426ed97f",
+        "sha256_in_prefix": "1110ab8fccb84833d9d47709c191f43fa3882490ff1c2dcb5fd47a11426ed97f",
+        "size_in_bytes": 1176
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_wc.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "633fb7957494ae97d4730bdb0de90365dacf94672a44823d0c92f2587871589b",
+        "sha256_in_prefix": "633fb7957494ae97d4730bdb0de90365dacf94672a44823d0c92f2587871589b",
+        "size_in_bytes": 1493
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/mr_word_freq_count.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b45f16649362d8b38ae26873cd9bc4be3b12d8005faab5e7e0953320c76970e7",
+        "sha256_in_prefix": "b45f16649362d8b38ae26873cd9bc4be3b12d8005faab5e7e0953320c76970e7",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/__pycache__/spark_wordcount_script.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "476847113d636216ba75122451b2b7523ac32a75aa6b7be8aa62992b806383fc",
+        "sha256_in_prefix": "476847113d636216ba75122451b2b7523ac32a75aa6b7be8aa62992b806383fc",
+        "size_in_bytes": 952
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_boom.py",
+        "path_type": "hardlink",
+        "sha256": "46a2412c090ecb5638cb90df4dbf9bc2e9640afbbc57bb2d0c24e72585487434",
+        "sha256_in_prefix": "46a2412c090ecb5638cb90df4dbf9bc2e9640afbbc57bb2d0c24e72585487434",
+        "size_in_bytes": 750
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_count_lines_by_file.py",
+        "path_type": "hardlink",
+        "sha256": "6fe6d4be2b77d904580917c0a8b6a95d04db825739ce55fd9d61f5029a8b9b45",
+        "sha256_in_prefix": "6fe6d4be2b77d904580917c0a8b6a95d04db825739ce55fd9d61f5029a8b9b45",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_count_lines_right.py",
+        "path_type": "hardlink",
+        "sha256": "ac2768b0a675ea5fc8dd18fb59df87b100987f45220ee474efa30f3f62749090",
+        "sha256_in_prefix": "ac2768b0a675ea5fc8dd18fb59df87b100987f45220ee474efa30f3f62749090",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_count_lines_wrong.py",
+        "path_type": "hardlink",
+        "sha256": "6dbc658fd02bdfed43c3f77e73cd05e08a3ebe67430d89ad6329df527f88138e",
+        "sha256_in_prefix": "6dbc658fd02bdfed43c3f77e73cd05e08a3ebe67430d89ad6329df527f88138e",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_grep.py",
+        "path_type": "hardlink",
+        "sha256": "6808832eaae9436ccb655707323939ba54709d4682eeb787926639d2bca6aed3",
+        "sha256_in_prefix": "6808832eaae9436ccb655707323939ba54709d4682eeb787926639d2bca6aed3",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_jar_step_example.py",
+        "path_type": "hardlink",
+        "sha256": "c2a138e618544cc09139b799d192afea2b8b843608511c6b4c887e694e213a76",
+        "sha256_in_prefix": "c2a138e618544cc09139b799d192afea2b8b843608511c6b4c887e694e213a76",
+        "size_in_bytes": 3351
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_log_sampler.py",
+        "path_type": "hardlink",
+        "sha256": "113c6d2cbc5b8a439f329b7580929623acf7dd45e4740fcd5dbfdb2eada93d0f",
+        "sha256_in_prefix": "113c6d2cbc5b8a439f329b7580929623acf7dd45e4740fcd5dbfdb2eada93d0f",
+        "size_in_bytes": 4113
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_most_used_word.py",
+        "path_type": "hardlink",
+        "sha256": "e9b431ea67cbe8fe411e0abf8511edde61a6f92d15b86d748055fcb13ca18c31",
+        "sha256_in_prefix": "e9b431ea67cbe8fe411e0abf8511edde61a6f92d15b86d748055fcb13ca18c31",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_next_word_stats.py",
+        "path_type": "hardlink",
+        "sha256": "3cac444d1b306587047e8813e43975d7d6cfd1285646872ffe70de409647f3a6",
+        "sha256_in_prefix": "3cac444d1b306587047e8813e43975d7d6cfd1285646872ffe70de409647f3a6",
+        "size_in_bytes": 3400
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_nick_nack.py",
+        "path_type": "hardlink",
+        "sha256": "e2ac5a233f85b3dc25e9504b51dd06062b628c74f98f201fda460c097eb6c722",
+        "sha256_in_prefix": "e2ac5a233f85b3dc25e9504b51dd06062b628c74f98f201fda460c097eb6c722",
+        "size_in_bytes": 1661
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_page_rank.py",
+        "path_type": "hardlink",
+        "sha256": "bf067ab9e9bfa0ef34abace4e0eff8afad43bbc281d77b67125d158ed48a4a8a",
+        "sha256_in_prefix": "bf067ab9e9bfa0ef34abace4e0eff8afad43bbc281d77b67125d158ed48a4a8a",
+        "size_in_bytes": 3501
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_phone_to_url.py",
+        "path_type": "hardlink",
+        "sha256": "948fdba74ae8d69254e00960b77d5e2d9ca296b74949437cedc5e436f2ff790c",
+        "sha256_in_prefix": "948fdba74ae8d69254e00960b77d5e2d9ca296b74949437cedc5e436f2ff790c",
+        "size_in_bytes": 4395
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d27d884b6770c4faedefe8b342eefcdc10889745d2620daa21aa6692a6dad195",
+        "sha256_in_prefix": "d27d884b6770c4faedefe8b342eefcdc10889745d2620daa21aa6692a6dad195",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/__pycache__/mr_postfix_bounce.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "33b9ba55360509b271a3df1922f1f50fc4ec120e60b2db20a7800a671535743a",
+        "sha256_in_prefix": "33b9ba55360509b271a3df1922f1f50fc4ec120e60b2db20a7800a671535743a",
+        "size_in_bytes": 4495
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/bounce_processing_rules.json",
+        "path_type": "hardlink",
+        "sha256": "ec3cbe54d6be341a0a5fcb225ec408564489f4b5baf44d685111e23b1b593f5c",
+        "sha256_in_prefix": "ec3cbe54d6be341a0a5fcb225ec408564489f4b5baf44d685111e23b1b593f5c",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_postfix_bounce/mr_postfix_bounce.py",
+        "path_type": "hardlink",
+        "sha256": "e7c5e4a1e193d3df0f5d3c75e8dc6f1428ca820635ee8f9c8dd54bb23d32215d",
+        "sha256_in_prefix": "e7c5e4a1e193d3df0f5d3c75e8dc6f1428ca820635ee8f9c8dd54bb23d32215d",
+        "size_in_bytes": 6360
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_spark_nick_nack_word_count.py",
+        "path_type": "hardlink",
+        "sha256": "c05f2fa57e964638709e7722ca096737b0f3ab9e18ffb62049922f5431bb69bf",
+        "sha256_in_prefix": "c05f2fa57e964638709e7722ca096737b0f3ab9e18ffb62049922f5431bb69bf",
+        "size_in_bytes": 1730
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_spark_wordcount.py",
+        "path_type": "hardlink",
+        "sha256": "5949bd068c49a21508f3e4f515d0a27db15b5bff6518178b4de4c66ef2f1c7cf",
+        "sha256_in_prefix": "5949bd068c49a21508f3e4f515d0a27db15b5bff6518178b4de4c66ef2f1c7cf",
+        "size_in_bytes": 1225
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_spark_wordcount_script.py",
+        "path_type": "hardlink",
+        "sha256": "8605b52da9c89b35f548aa63f4c012228aa817f506eb6e20f8cf326f885bc2cb",
+        "sha256_in_prefix": "8605b52da9c89b35f548aa63f4c012228aa817f506eb6e20f8cf326f885bc2cb",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_sparkaboom.py",
+        "path_type": "hardlink",
+        "sha256": "e634155c9605f25578f5d6c1081763210c1cd037e6db4e368d6cb72e24b7b72b",
+        "sha256_in_prefix": "e634155c9605f25578f5d6c1081763210c1cd037e6db4e368d6cb72e24b7b72b",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_text_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "ea0d994ccfeba67ad050cb40ff713aea8c51ca9be7c15a959853593b8596d8b3",
+        "sha256_in_prefix": "ea0d994ccfeba67ad050cb40ff713aea8c51ca9be7c15a959853593b8596d8b3",
+        "size_in_bytes": 21935
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d706be70e039ccbd722dd2609f63e1dea517e8992562ba58fbd0e371c6cc524",
+        "sha256_in_prefix": "4d706be70e039ccbd722dd2609f63e1dea517e8992562ba58fbd0e371c6cc524",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/__pycache__/mr_travelling_salesman.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "edf487c366f83d8aefb33321ca852c2bbd8e468d7b0194734a40b3b84978c5b7",
+        "sha256_in_prefix": "edf487c366f83d8aefb33321ca852c2bbd8e468d7b0194734a40b3b84978c5b7",
+        "size_in_bytes": 6232
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/10_nodes.json",
+        "path_type": "hardlink",
+        "sha256": "51b3ce4c7d5d9c3817ec2287cda9cab729e50693af67a6176d089bd7932effd4",
+        "sha256_in_prefix": "51b3ce4c7d5d9c3817ec2287cda9cab729e50693af67a6176d089bd7932effd4",
+        "size_in_bytes": 1917
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/11_nodes.json",
+        "path_type": "hardlink",
+        "sha256": "4cc08d8ece497733882a39c268e9e17682cd305576ea563852d37f403784e751",
+        "sha256_in_prefix": "4cc08d8ece497733882a39c268e9e17682cd305576ea563852d37f403784e751",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/12_nodes.json",
+        "path_type": "hardlink",
+        "sha256": "eb6f2b2726e52bde7e104d3a41178addf4a13769f130629b7d96da8c9f695c21",
+        "sha256_in_prefix": "eb6f2b2726e52bde7e104d3a41178addf4a13769f130629b7d96da8c9f695c21",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/13_nodes.json",
+        "path_type": "hardlink",
+        "sha256": "69c9d7bab2003ca9b902e645510254ee88759df6b64d1cabf28a69797c9e57e2",
+        "sha256_in_prefix": "69c9d7bab2003ca9b902e645510254ee88759df6b64d1cabf28a69797c9e57e2",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/example_graphs/9_nodes.json",
+        "path_type": "hardlink",
+        "sha256": "7d49510ecae8bf49b3c219efbb31a78196faaf97887265c1651cfbb1cd5d0bd3",
+        "sha256_in_prefix": "7d49510ecae8bf49b3c219efbb31a78196faaf97887265c1651cfbb1cd5d0bd3",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_travelling_salesman/mr_travelling_salesman.py",
+        "path_type": "hardlink",
+        "sha256": "1af14c9208260238ecbb1c9cb9021781e39c0faff242dd6a6ddaf484a008f81a",
+        "sha256_in_prefix": "1af14c9208260238ecbb1c9cb9021781e39c0faff242dd6a6ddaf484a008f81a",
+        "size_in_bytes": 7266
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_u_word_freq_count.py",
+        "path_type": "hardlink",
+        "sha256": "696c25920874fcc83d60b83235838ca9f14c68ea83236d924992ba6b076c368c",
+        "sha256_in_prefix": "696c25920874fcc83d60b83235838ca9f14c68ea83236d924992ba6b076c368c",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_wc.py",
+        "path_type": "hardlink",
+        "sha256": "05f389b55da5cc48fc78ea690e472b8213b7771d1ca61fab0f636f7f3f58b2f6",
+        "sha256_in_prefix": "05f389b55da5cc48fc78ea690e472b8213b7771d1ca61fab0f636f7f3f58b2f6",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/mr_word_freq_count.py",
+        "path_type": "hardlink",
+        "sha256": "8ecee404e54a434b990dc2b9c5d56f5ab62165494b7e640a03265163c13edbff",
+        "sha256_in_prefix": "8ecee404e54a434b990dc2b9c5d56f5ab62165494b7e640a03265163c13edbff",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/examples/spark_wordcount_script.py",
+        "path_type": "hardlink",
+        "sha256": "601324ba39fa6871e1fd228b9e96ad9bc70d86777b8abad3203b09a396c33986",
+        "sha256_in_prefix": "601324ba39fa6871e1fd228b9e96ad9bc70d86777b8abad3203b09a396c33986",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5788ee6ee4b68ed8c33686604cb4f4ab9e9e9086dc9cff3e8989c069f7481bc5",
+        "sha256_in_prefix": "5788ee6ee4b68ed8c33686604cb4f4ab9e9e9086dc9cff3e8989c069f7481bc5",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/base.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "da500d0872de7abfcbd92bb164e2ca4d3969ce3d5b7d14e607f2a9b55d78176a",
+        "sha256_in_prefix": "da500d0872de7abfcbd92bb164e2ca4d3969ce3d5b7d14e607f2a9b55d78176a",
+        "size_in_bytes": 4348
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/composite.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0e0ef6ea48748a0c24a3cc39e9ffde67455a2bf04781c43a2002046fa43ff0d",
+        "sha256_in_prefix": "e0e0ef6ea48748a0c24a3cc39e9ffde67455a2bf04781c43a2002046fa43ff0d",
+        "size_in_bytes": 3318
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/gcs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2364a35d6b1430aadb6b4081f0c5181847e7ee3fb4f588c01c0c3a277ed1827e",
+        "sha256_in_prefix": "2364a35d6b1430aadb6b4081f0c5181847e7ee3fb4f588c01c0c3a277ed1827e",
+        "size_in_bytes": 8159
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/hadoop.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "511aea7114ef7c5577c63dbad82cf5b838f4023814f8d5281bc3084e096ce2aa",
+        "sha256_in_prefix": "511aea7114ef7c5577c63dbad82cf5b838f4023814f8d5281bc3084e096ce2aa",
+        "size_in_bytes": 9107
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/local.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "840dbe85da4333935129c284bf619a3af84f48f456cd0da782621db59d1231c2",
+        "sha256_in_prefix": "840dbe85da4333935129c284bf619a3af84f48f456cd0da782621db59d1231c2",
+        "size_in_bytes": 2951
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/s3.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef6e0bccf51048f36342435d833689b49079e740b878727ef60cefe0188f8346",
+        "sha256_in_prefix": "ef6e0bccf51048f36342435d833689b49079e740b878727ef60cefe0188f8346",
+        "size_in_bytes": 11429
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/__pycache__/ssh.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4f9f14a7e5126ed484b817fc95ebeb273cb1591533319b906b2bc67b93f16ab",
+        "sha256_in_prefix": "b4f9f14a7e5126ed484b817fc95ebeb273cb1591533319b906b2bc67b93f16ab",
+        "size_in_bytes": 6573
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/base.py",
+        "path_type": "hardlink",
+        "sha256": "e02121c60effda15b7fcb41073a0b1a36398683dc3703c504719acf0e866ee7e",
+        "sha256_in_prefix": "e02121c60effda15b7fcb41073a0b1a36398683dc3703c504719acf0e866ee7e",
+        "size_in_bytes": 4382
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/composite.py",
+        "path_type": "hardlink",
+        "sha256": "580440975ef41afe4fa007bec19d12c2f5613744b0308072160998cc131835f7",
+        "sha256_in_prefix": "580440975ef41afe4fa007bec19d12c2f5613744b0308072160998cc131835f7",
+        "size_in_bytes": 3137
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/gcs.py",
+        "path_type": "hardlink",
+        "sha256": "a6186b574d6825aa424939230733e645c128ab243f62bc87724daf179099f5cd",
+        "sha256_in_prefix": "a6186b574d6825aa424939230733e645c128ab243f62bc87724daf179099f5cd",
+        "size_in_bytes": 9029
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/hadoop.py",
+        "path_type": "hardlink",
+        "sha256": "e9b1293630abad5bac31c62da5940f3c9f9dfd85fd85b36dee2eeda5163eb744",
+        "sha256_in_prefix": "e9b1293630abad5bac31c62da5940f3c9f9dfd85fd85b36dee2eeda5163eb744",
+        "size_in_bytes": 12367
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/local.py",
+        "path_type": "hardlink",
+        "sha256": "a6781027767102d042282a5a4904da33c3ceb3ceb49d524fc2631543656cc00e",
+        "sha256_in_prefix": "a6781027767102d042282a5a4904da33c3ceb3ceb49d524fc2631543656cc00e",
+        "size_in_bytes": 2632
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/s3.py",
+        "path_type": "hardlink",
+        "sha256": "9ca50fea650433ac1f2e79ea824e6261ae11bc9d16c711528c40399c6e6cf970",
+        "sha256_in_prefix": "9ca50fea650433ac1f2e79ea824e6261ae11bc9d16c711528c40399c6e6cf970",
+        "size_in_bytes": 13819
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/fs/ssh.py",
+        "path_type": "hardlink",
+        "sha256": "a6f7521e3f2b8fef0f765867d93aeaadf615cfc981b8a69c31a1fcf8a07e032f",
+        "sha256_in_prefix": "a6f7521e3f2b8fef0f765867d93aeaadf615cfc981b8a69c31a1fcf8a07e032f",
+        "size_in_bytes": 7488
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/hadoop.py",
+        "path_type": "hardlink",
+        "sha256": "a8bcd18a15b15c2fca09d2fb9b8e602c97f0242537435d26c39558898f1955c1",
+        "sha256_in_prefix": "a8bcd18a15b15c2fca09d2fb9b8e602c97f0242537435d26c39558898f1955c1",
+        "size_in_bytes": 23202
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/iam.py",
+        "path_type": "hardlink",
+        "sha256": "2045f62c90bdf7f66e9136ec827f9af36bdc1b95bb6aea5ba88aed9f710704d7",
+        "sha256_in_prefix": "2045f62c90bdf7f66e9136ec827f9af36bdc1b95bb6aea5ba88aed9f710704d7",
+        "size_in_bytes": 6007
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/inline.py",
+        "path_type": "hardlink",
+        "sha256": "932ae41363acbcbdadb605dd8107fc6e9cfba479846a1a34727654bb82b73beb",
+        "sha256_in_prefix": "932ae41363acbcbdadb605dd8107fc6e9cfba479846a1a34727654bb82b73beb",
+        "size_in_bytes": 6237
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/job.py",
+        "path_type": "hardlink",
+        "sha256": "b77dfaa1c73679ab6ec16b86bfe43d50ddfc272cacf2b4001d254db9222f9001",
+        "sha256_in_prefix": "b77dfaa1c73679ab6ec16b86bfe43d50ddfc272cacf2b4001d254db9222f9001",
+        "size_in_bytes": 47120
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/launch.py",
+        "path_type": "hardlink",
+        "sha256": "58962077f29c5539222d014adee7206c86ef71fdb8ed7465b18eedacaf092746",
+        "sha256_in_prefix": "58962077f29c5539222d014adee7206c86ef71fdb8ed7465b18eedacaf092746",
+        "size_in_bytes": 23646
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/local.py",
+        "path_type": "hardlink",
+        "sha256": "a7a1c17e88d3a5f6ad2e20f21be28c041bfec37d6939322548e9e3323f501242",
+        "sha256_in_prefix": "a7a1c17e88d3a5f6ad2e20f21be28c041bfec37d6939322548e9e3323f501242",
+        "size_in_bytes": 9211
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "97c6dbc846a2188f2110a0d6f9858a86d79031fafe51d19e1716e083f7c1dac9",
+        "sha256_in_prefix": "97c6dbc846a2188f2110a0d6f9858a86d79031fafe51d19e1716e083f7c1dac9",
+        "size_in_bytes": 5272
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e77343fb82416a7f609283f4d881d5ae880d619d69033632ea694bdbe2e99712",
+        "sha256_in_prefix": "e77343fb82416a7f609283f4d881d5ae880d619d69033632ea694bdbe2e99712",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/bootstrap.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "809c8416bd4e69af6d130be7850409ef30a3aaeb7e12a47cf76ca2e9a02c8e9b",
+        "sha256_in_prefix": "809c8416bd4e69af6d130be7850409ef30a3aaeb7e12a47cf76ca2e9a02c8e9b",
+        "size_in_bytes": 3135
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/counters.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "83017bdbbdb90c9811134f604cf0eb6af3af0b1d8bddb2b8be16bb9b0d5fc6f5",
+        "sha256_in_prefix": "83017bdbbdb90c9811134f604cf0eb6af3af0b1d8bddb2b8be16bb9b0d5fc6f5",
+        "size_in_bytes": 1564
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/errors.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8d85a715fe32a3d05fe45308c118882759ab11bc35c6623c639d3544cb57fac",
+        "sha256_in_prefix": "d8d85a715fe32a3d05fe45308c118882759ab11bc35c6623c639d3544cb57fac",
+        "size_in_bytes": 3853
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/history.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f0e5a697b7066083943e7ad23c23d57b1c968e3432a8d1639b50d0b0857fd56",
+        "sha256_in_prefix": "5f0e5a697b7066083943e7ad23c23d57b1c968e3432a8d1639b50d0b0857fd56",
+        "size_in_bytes": 8830
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/ids.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2b085db128973101eac5d7533a65551db0610fd3ad208bb422f700a4383847e",
+        "sha256_in_prefix": "b2b085db128973101eac5d7533a65551db0610fd3ad208bb422f700a4383847e",
+        "size_in_bytes": 2653
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/log4j.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "79b0a44fd1da131205a15fdeb57f6319e6c7427a5446f0ddb6c903c3430f9dc5",
+        "sha256_in_prefix": "79b0a44fd1da131205a15fdeb57f6319e6c7427a5446f0ddb6c903c3430f9dc5",
+        "size_in_bytes": 2547
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/mixin.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "743114f3f2bc48a3fab2711291e2bca9aedfd5c0b9a119ed68e01882e1f045df",
+        "sha256_in_prefix": "743114f3f2bc48a3fab2711291e2bca9aedfd5c0b9a119ed68e01882e1f045df",
+        "size_in_bytes": 7329
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/step.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ce3855ea3edf0461c90ad54002d69af4ac6d0c757f4155fd76629ab8dec5dd2",
+        "sha256_in_prefix": "3ce3855ea3edf0461c90ad54002d69af4ac6d0c757f4155fd76629ab8dec5dd2",
+        "size_in_bytes": 9847
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/task.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f2107fbcd05432ed7f39db83c0ac7a498c6d1223d7fe4e1a192de45a7a12520",
+        "sha256_in_prefix": "7f2107fbcd05432ed7f39db83c0ac7a498c6d1223d7fe4e1a192de45a7a12520",
+        "size_in_bytes": 12797
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/__pycache__/wrap.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "92d74c64422649b0afdfde9e53fc80538b1088c3805326f11c28bdab354ddbbb",
+        "sha256_in_prefix": "92d74c64422649b0afdfde9e53fc80538b1088c3805326f11c28bdab354ddbbb",
+        "size_in_bytes": 2664
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "da9f19913b7a7edcb96d5e67b4e5c58dd3b5e7eac2b9124ea26085f8e38df5b7",
+        "sha256_in_prefix": "da9f19913b7a7edcb96d5e67b4e5c58dd3b5e7eac2b9124ea26085f8e38df5b7",
+        "size_in_bytes": 5004
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/counters.py",
+        "path_type": "hardlink",
+        "sha256": "31c882588da7a0567fa525db30a2fbed1cc1bf27eba2d83bc30c776246908601",
+        "sha256_in_prefix": "31c882588da7a0567fa525db30a2fbed1cc1bf27eba2d83bc30c776246908601",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/errors.py",
+        "path_type": "hardlink",
+        "sha256": "c497d29c9315d1043832a296d09f635684397e79aa2486400a1f54ceb9add5fc",
+        "sha256_in_prefix": "c497d29c9315d1043832a296d09f635684397e79aa2486400a1f54ceb9add5fc",
+        "size_in_bytes": 4974
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/history.py",
+        "path_type": "hardlink",
+        "sha256": "3f15ca412ac5687bf252c37acc238411cc0c925a54b3b809b3e92792b7c1cbf4",
+        "sha256_in_prefix": "3f15ca412ac5687bf252c37acc238411cc0c925a54b3b809b3e92792b7c1cbf4",
+        "size_in_bytes": 14519
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/ids.py",
+        "path_type": "hardlink",
+        "sha256": "f9558efc5064dd318821e657da3d80f6b54b25b015c872e369d09e473f4c72d6",
+        "sha256_in_prefix": "f9558efc5064dd318821e657da3d80f6b54b25b015c872e369d09e473f4c72d6",
+        "size_in_bytes": 4474
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/log4j.py",
+        "path_type": "hardlink",
+        "sha256": "53dcc56477ba80c8e0c35cc1c7c13f8142d29cc6170c007a9bd6d96649be028a",
+        "sha256_in_prefix": "53dcc56477ba80c8e0c35cc1c7c13f8142d29cc6170c007a9bd6d96649be028a",
+        "size_in_bytes": 4242
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/mixin.py",
+        "path_type": "hardlink",
+        "sha256": "43f6626d854d8c3ea6a3167aceb4dbcb27c5aec4a9dda95d117d900f11b7c360",
+        "sha256_in_prefix": "43f6626d854d8c3ea6a3167aceb4dbcb27c5aec4a9dda95d117d900f11b7c360",
+        "size_in_bytes": 10474
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/step.py",
+        "path_type": "hardlink",
+        "sha256": "4334fb9c1df0479ce0030e5b5287bef85ed47cf8f99a22187c0d8a2f74c0f927",
+        "sha256_in_prefix": "4334fb9c1df0479ce0030e5b5287bef85ed47cf8f99a22187c0d8a2f74c0f927",
+        "size_in_bytes": 13184
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/task.py",
+        "path_type": "hardlink",
+        "sha256": "d355cfe2f08c8b46cf298b15f0e3f03378cb3a66615a1d90b9986fc06ec98e24",
+        "sha256_in_prefix": "d355cfe2f08c8b46cf298b15f0e3f03378cb3a66615a1d90b9986fc06ec98e24",
+        "size_in_bytes": 19332
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/logs/wrap.py",
+        "path_type": "hardlink",
+        "sha256": "86afaeb46e94dba92bd97b19e4e922203579c45c0f196ed8b73a4359ea62ebec",
+        "sha256_in_prefix": "86afaeb46e94dba92bd97b19e4e922203579c45c0f196ed8b73a4359ea62ebec",
+        "size_in_bytes": 3353
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/options.py",
+        "path_type": "hardlink",
+        "sha256": "b19367a37f03289e7d2a645a82d76032eb86dbc5b5ec373742cfeb39adb1b05f",
+        "sha256_in_prefix": "b19367a37f03289e7d2a645a82d76032eb86dbc5b5ec373742cfeb39adb1b05f",
+        "size_in_bytes": 58561
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/parse.py",
+        "path_type": "hardlink",
+        "sha256": "d26e841dfdcde1d829401a94f10f910b7866955ab94561852261670eba7e762f",
+        "sha256_in_prefix": "d26e841dfdcde1d829401a94f10f910b7866955ab94561852261670eba7e762f",
+        "size_in_bytes": 6334
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/pool.py",
+        "path_type": "hardlink",
+        "sha256": "752f0075937939bb50013e924d4f49f0c40b65840e1d4d636d4bcf077b6ae031",
+        "sha256_in_prefix": "752f0075937939bb50013e924d4f49f0c40b65840e1d4d636d4bcf077b6ae031",
+        "size_in_bytes": 17512
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "e129668ef989b2c446e12ceb297095a4a61d5b1b7c2a7fa3a1cacd704d834d15",
+        "sha256_in_prefix": "e129668ef989b2c446e12ceb297095a4a61d5b1b7c2a7fa3a1cacd704d834d15",
+        "size_in_bytes": 15978
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/py2.py",
+        "path_type": "hardlink",
+        "sha256": "22dba4d9b2db09e947643820895f52c730a9ae1933267e30026ba63735ee1fe1",
+        "sha256_in_prefix": "22dba4d9b2db09e947643820895f52c730a9ae1933267e30026ba63735ee1fe1",
+        "size_in_bytes": 5464
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/retry.py",
+        "path_type": "hardlink",
+        "sha256": "01ae182bf6f82291a8f39e3bbe8efe6d598e3ee074c9c8305d512417b7e93e27",
+        "sha256_in_prefix": "01ae182bf6f82291a8f39e3bbe8efe6d598e3ee074c9c8305d512417b7e93e27",
+        "size_in_bytes": 3920
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/runner.py",
+        "path_type": "hardlink",
+        "sha256": "f280ca9be7097770b65e3b05f32f75c5178670be615d84795b0b685059aea859",
+        "sha256_in_prefix": "f280ca9be7097770b65e3b05f32f75c5178670be615d84795b0b685059aea859",
+        "size_in_bytes": 48763
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/setup.py",
+        "path_type": "hardlink",
+        "sha256": "0433ae6f68f8c6acd50b7a33df3a4e07e0a0528bed7f31511a8836b0d8900c79",
+        "sha256_in_prefix": "0433ae6f68f8c6acd50b7a33df3a4e07e0a0528bed7f31511a8836b0d8900c79",
+        "size_in_bytes": 17888
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/sim.py",
+        "path_type": "hardlink",
+        "sha256": "f82d096f1d19f1960be00ac1c35290ba3fe53ad56c249da199fe9543046cd9dd",
+        "sha256_in_prefix": "f82d096f1d19f1960be00ac1c35290ba3fe53ad56c249da199fe9543046cd9dd",
+        "size_in_bytes": 27926
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/step.py",
+        "path_type": "hardlink",
+        "sha256": "997f6f7e8d497fb4bb36a822e265a397eaf3ba552d870d1b736b9b8d4aada4a9",
+        "sha256_in_prefix": "997f6f7e8d497fb4bb36a822e265a397eaf3ba552d870d1b736b9b8d4aada4a9",
+        "size_in_bytes": 20645
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b82b841142acd972db3de3bb0a96e7695603092f005045caf19996a4293bdd98",
+        "sha256_in_prefix": "b82b841142acd972db3de3bb0a96e7695603092f005045caf19996a4293bdd98",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/__pycache__/diagnose.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b86c4e92e5aba4fab2d72f8b70656ce17220f6817c9cc540521e63abeae0e9f",
+        "sha256_in_prefix": "1b86c4e92e5aba4fab2d72f8b70656ce17220f6817c9cc540521e63abeae0e9f",
+        "size_in_bytes": 4183
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/__pycache__/spark_submit.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bfd8046293706d6ada6c8ed1a32b1f3bbb526d5854fde0945a6a956522364b0",
+        "sha256_in_prefix": "8bfd8046293706d6ada6c8ed1a32b1f3bbb526d5854fde0945a6a956522364b0",
+        "size_in_bytes": 17937
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/diagnose.py",
+        "path_type": "hardlink",
+        "sha256": "ab2983daaee5285f34ed5906575d669ed0ca63df40cd17642645dfaa7d846ca5",
+        "sha256_in_prefix": "ab2983daaee5285f34ed5906575d669ed0ca63df40cd17642645dfaa7d846ca5",
+        "size_in_bytes": 5301
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b19c960ff0db45ecee10821e9e1c2e216580f560b3f8abcb35386fe7f8abd971",
+        "sha256_in_prefix": "b19c960ff0db45ecee10821e9e1c2e216580f560b3f8abcb35386fe7f8abd971",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/audit_usage.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "299cae46e086588452f2587d2156223cc043c98795159e04e1d0ba4adc12d609",
+        "sha256_in_prefix": "299cae46e086588452f2587d2156223cc043c98795159e04e1d0ba4adc12d609",
+        "size_in_bytes": 25245
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/create_cluster.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "337cf00485ffbb517bfd47e928145d3f22dccc0a80ca8310f80f06168901f183",
+        "sha256_in_prefix": "337cf00485ffbb517bfd47e928145d3f22dccc0a80ca8310f80f06168901f183",
+        "size_in_bytes": 12474
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/mrboss.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef8d1b08f49cf5b95941e7c51b2c410f7ec7c3c39af782e79bee0099cf406996",
+        "sha256_in_prefix": "ef8d1b08f49cf5b95941e7c51b2c410f7ec7c3c39af782e79bee0099cf406996",
+        "size_in_bytes": 4356
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/report_long_jobs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa37294027919bf6bf4788b088dad778f21a5a0e561c8bfa34ee507105ec1756",
+        "sha256_in_prefix": "fa37294027919bf6bf4788b088dad778f21a5a0e561c8bfa34ee507105ec1756",
+        "size_in_bytes": 7817
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/s3_tmpwatch.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cb1b06dfb43393fd4a8e88a64e00d6939c6fa22e43a421e5b9f08e3e5fddbcf",
+        "sha256_in_prefix": "1cb1b06dfb43393fd4a8e88a64e00d6939c6fa22e43a421e5b9f08e3e5fddbcf",
+        "size_in_bytes": 4404
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/terminate_cluster.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4b3fb192838832776cdcfdf5452b594724ceaa81d90d7af9e67850102100631",
+        "sha256_in_prefix": "f4b3fb192838832776cdcfdf5452b594724ceaa81d90d7af9e67850102100631",
+        "size_in_bytes": 3022
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/__pycache__/terminate_idle_clusters.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "be5a9d420612dbf22be1ed4d67524f0aaec45b77dc23a192d8b85456220fe3e6",
+        "sha256_in_prefix": "be5a9d420612dbf22be1ed4d67524f0aaec45b77dc23a192d8b85456220fe3e6",
+        "size_in_bytes": 10851
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/audit_usage.py",
+        "path_type": "hardlink",
+        "sha256": "7222250debb2c6c1a4bf9cec35fb3eec396d4bca9bb0b16c2b56604b9522c046",
+        "sha256_in_prefix": "7222250debb2c6c1a4bf9cec35fb3eec396d4bca9bb0b16c2b56604b9522c046",
+        "size_in_bytes": 30967
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/create_cluster.py",
+        "path_type": "hardlink",
+        "sha256": "e035d7e5bf14b73ed8bd24db45c28ce04bbcd8292bf1f52d8625d501897ee1b2",
+        "sha256_in_prefix": "e035d7e5bf14b73ed8bd24db45c28ce04bbcd8292bf1f52d8625d501897ee1b2",
+        "size_in_bytes": 13027
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/mrboss.py",
+        "path_type": "hardlink",
+        "sha256": "18399319d398d911fe06c1a978224efffa50f58d45a030730e44cacfd10057ba",
+        "sha256_in_prefix": "18399319d398d911fe06c1a978224efffa50f58d45a030730e44cacfd10057ba",
+        "size_in_bytes": 5339
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/report_long_jobs.py",
+        "path_type": "hardlink",
+        "sha256": "f15b926cd694f7d733fab6ca18df4bcb67513707913edb019fe31f874c4ee151",
+        "sha256_in_prefix": "f15b926cd694f7d733fab6ca18df4bcb67513707913edb019fe31f874c4ee151",
+        "size_in_bytes": 10187
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/s3_tmpwatch.py",
+        "path_type": "hardlink",
+        "sha256": "4771e12284a225811f6c0cf3368c965ed0e763eb443ce0ff7aee608ac4d3dfff",
+        "sha256_in_prefix": "4771e12284a225811f6c0cf3368c965ed0e763eb443ce0ff7aee608ac4d3dfff",
+        "size_in_bytes": 5109
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/terminate_cluster.py",
+        "path_type": "hardlink",
+        "sha256": "7c427c1b5c64a16edec489f9513c962d9958d8242e3f692e8e2aa729126c865c",
+        "sha256_in_prefix": "7c427c1b5c64a16edec489f9513c962d9958d8242e3f692e8e2aa729126c865c",
+        "size_in_bytes": 3623
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/emr/terminate_idle_clusters.py",
+        "path_type": "hardlink",
+        "sha256": "be6d42b2916ac8e4415325d4cf004c689db553812c509d6f3d9a2ab7f172b776",
+        "sha256_in_prefix": "be6d42b2916ac8e4415325d4cf004c689db553812c509d6f3d9a2ab7f172b776",
+        "size_in_bytes": 14542
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/tools/spark_submit.py",
+        "path_type": "hardlink",
+        "sha256": "2c3512a4841cd55666deae49e767d38ac08a1508c4e5a6eed2d893fea6d43ac3",
+        "sha256_in_prefix": "2c3512a4841cd55666deae49e767d38ac08a1508c4e5a6eed2d893fea6d43ac3",
+        "size_in_bytes": 22934
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mrjob/util.py",
+        "path_type": "hardlink",
+        "sha256": "ca31fb65ad3578c1e0db2b39b5685532e545e47fe9534fa06afc752f27fee9fc",
+        "sha256_in_prefix": "ca31fb65ad3578c1e0db2b39b5685532e545e47fe9534fa06afc752f27fee9fc",
+        "size_in_bytes": 16186
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mrjob",
+  "size": 414456,
+  "subdir": "linux-64",
+  "timestamp": 1549173406448,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mrjob-0.6.7-py36_0.tar.bz2",
+  "version": "0.6.7"
+}

@@ -1,0 +1,75 @@
+{
+  "build": "py36h14c3975_1001",
+  "build_number": 1001,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/subhasish/anaconda3/pkgs/ujson-1.35-py36h14c3975_1001",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/ujson.cpython-36m-x86_64-linux-gnu.so"
+  ],
+  "fn": "ujson-1.35-py36h14c3975_1001.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/subhasish/anaconda3/pkgs/ujson-1.35-py36h14c3975_1001",
+    "type": 1
+  },
+  "md5": "a2a9bfbe27f9bf262b93a30f3e749009",
+  "name": "ujson",
+  "package_tarball_full_path": "/home/subhasish/anaconda3/pkgs/ujson-1.35-py36h14c3975_1001.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "0ae6b8542b46da53c456abfd8722544db563745096249e9c9cde8864cf6d39d5",
+        "sha256_in_prefix": "0ae6b8542b46da53c456abfd8722544db563745096249e9c9cde8864cf6d39d5",
+        "size_in_bytes": 20737
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "95b36df59834edb572dfc66b45211b88b5de5ad6e24363d206e4cfdb784b60cb",
+        "sha256_in_prefix": "95b36df59834edb572dfc66b45211b88b5de5ad6e24363d206e4cfdb784b60cb",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ujson-1.35-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "sha256_in_prefix": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ujson.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "ff0267fa164f4a6452719a856fcebe512c2edbabc79c38c5a34ab252e0ab2459",
+        "sha256_in_prefix": "ff0267fa164f4a6452719a856fcebe512c2edbabc79c38c5a34ab252e0ab2459",
+        "size_in_bytes": 60312
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 27312,
+  "subdir": "linux-64",
+  "timestamp": 1538574680000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ujson-1.35-py36h14c3975_1001.tar.bz2",
+  "version": "1.35"
+}

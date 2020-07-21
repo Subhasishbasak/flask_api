@@ -1,0 +1,101 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "google-auth",
+    "httplib2 >=0.9.1",
+    "python",
+    "six"
+  ],
+  "extracted_package_dir": "/home/subhasish/anaconda3/pkgs/google-auth-httplib2-0.0.3-py_2",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/google_auth_httplib2-0.0.3.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/google_auth_httplib2-0.0.3.dist-info/LICENSE",
+    "lib/python3.6/site-packages/google_auth_httplib2-0.0.3.dist-info/METADATA",
+    "lib/python3.6/site-packages/google_auth_httplib2-0.0.3.dist-info/RECORD",
+    "lib/python3.6/site-packages/google_auth_httplib2-0.0.3.dist-info/WHEEL",
+    "lib/python3.6/site-packages/google_auth_httplib2-0.0.3.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/google_auth_httplib2.py",
+    "lib/python3.6/site-packages/__pycache__/google_auth_httplib2.cpython-36.pyc"
+  ],
+  "fn": "google-auth-httplib2-0.0.3-py_2.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/subhasish/anaconda3/pkgs/google-auth-httplib2-0.0.3-py_2",
+    "type": 1
+  },
+  "md5": "109fe9c90bde2ac33edbcddbaa309dc0",
+  "name": "google-auth-httplib2",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/subhasish/anaconda3/pkgs/google-auth-httplib2-0.0.3-py_2.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google_auth_httplib2-0.0.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.0.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.0.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "54684baf5d0ce776b1d260d1192939573ef1ec0ed12209c54b7245421d47dc58",
+        "sha256_in_prefix": "54684baf5d0ce776b1d260d1192939573ef1ec0ed12209c54b7245421d47dc58",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.0.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "46d51e0cff772fb851475ba1fac99e562ff1f2b008e8a5c4efff8b35585b3b1f",
+        "sha256_in_prefix": "46d51e0cff772fb851475ba1fac99e562ff1f2b008e8a5c4efff8b35585b3b1f",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.0.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0a2850bc29ec1994011801cb11431fd08740e1f45db92fcd0544cc8024edbcf3",
+        "sha256_in_prefix": "0a2850bc29ec1994011801cb11431fd08740e1f45db92fcd0544cc8024edbcf3",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2-0.0.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c50af85fdd42b0d5abd66c37aeb387f262a760b396fd486be54ee6a18c64ab81",
+        "sha256_in_prefix": "c50af85fdd42b0d5abd66c37aeb387f262a760b396fd486be54ee6a18c64ab81",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/google_auth_httplib2.py",
+        "path_type": "hardlink",
+        "sha256": "0da63da1599c44850de36e8f52303a03abe62cefc563084aa155b8ae80c707c6",
+        "sha256_in_prefix": "0da63da1599c44850de36e8f52303a03abe62cefc563084aa155b8ae80c707c6",
+        "size_in_bytes": 8434
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/google_auth_httplib2.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 10790,
+  "subdir": "noarch",
+  "timestamp": 1540980498342,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-auth-httplib2-0.0.3-py_2.tar.bz2",
+  "version": "0.0.3"
+}

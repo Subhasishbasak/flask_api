@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/subhasish/anaconda3/envs/new_env
+exec_prefix=/home/subhasish/anaconda3/envs/new_env
+libdir=/home/subhasish/anaconda3/envs/new_env/lib
+includedir=/home/subhasish/anaconda3/envs/new_env/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.4
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lrt  
